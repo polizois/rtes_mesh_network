@@ -1,0 +1,37 @@
+program_started : 1563867992369086 : 8546
+circBuffer.txt not found!
+Starting with clean buffers
+device_connected : 1563868014388213 : 10.0.85.37 : sd = 3
+Adding to list of sockets as 0
+device_connected : 1563868014422222 : 10.0.85.35 : sd = 4
+Adding to list of sockets as 1
+device_connected : 1563868014440563 : 10.0.85.38 : sd = 6
+Adding to list of sockets as 2
+generated_message : 1563868024298609
+sent_message : 1563868035386689 : 10.0.85.37 : sd = 3
+sent_message : 1563868035948486 : 10.0.85.35 : sd = 4
+sent_message : 1563868036613605 : 10.0.85.38 : sd = 6
+received_accepted_message : 1563868039606173 : 0.0.0.0 : sd=4
+device_disconnected : 1563868039618123 : 0.0.0.0 : sd=4
+received_accepted_message : 1563868044592591 : 0.0.0.0 : sd=6
+device_disconnected : 1563868044595462 : 0.0.0.0 : sd=6
+received_accepted_message : 1563868052218020 : 0.0.0.0 : sd=3
+device_disconnected : 1563868052219324 : 0.0.0.0 : sd=3
+generated_message : 1563868054324728
+generated_message : 1563868084329181
+generated_message : 1563868114342584
+generated_message : 1563868144351011
+generated_message : 1563868174365554
+generated_message : 1563868204383099
+generated_message : 1563868234392903
+generated_message : 1563868264404992
+generated_message : 1563868294418024
+generated_message : 1563868324432918
+generated_message : 1563868354445805
+
+Terminating Threads
+Wait until each thread finishes it's current loop.(it might take some time)
+client_joined : 1563868355625229
+generated_message : 1563868384467179
+generator_joined : 1563868384486242
+server_joined : 1563868384486642

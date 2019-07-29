@@ -1,0 +1,17 @@
+#ifndef DEFINITIONS_H_
+#define DEFINITIONS_H_
+
+#define SERVER_PORT 2288
+#define NETWORK_DEVICE "eth0"
+#define BROADCAST_IP "10.255.255.255"
+#define PING_PACKETS 20
+#define MAX_SOCKETS 30
+#define CIRC_BUFFER_SIZE 2000
+#define MSG_SIZE 299
+#define CLIENT_PRINT 0
+#define SERVER_PRINT 0
+#define GENERATOR_PRINT 0
+#define TRUE 1
+#define FALSE 0
+
+#endif

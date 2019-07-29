@@ -1,0 +1,333 @@
+program_started : 1564028542286148 : 8538
+circBuffer.txt not found!
+Starting with clean buffers
+server_device_connected : 1564028546031402 : 10.0.85.36 : sd = 5
+Adding to list of sockets as 0
+server_device_connected : 1564028553989816 : 10.0.85.37 : sd = 6
+Adding to list of sockets as 1
+server_device_connected : 1564028559411912 : 10.0.85.35 : sd = 7
+Adding to list of sockets as 2
+received_accepted_message : 1564028613428871 : 10.0.85.37 : sd=6
+received_rejected_message : 1564028618729307 : 10.0.85.35 : sd=7
+sent_message : 1564028621486690 : 10.0.85.36 : sd = 5
+sent_message : 1564028621888129 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564028625100622 : 10.0.85.36 : sd=5
+received_accepted_message : 1564028721359353 : 10.0.85.35 : sd=7
+sent_message : 1564028722873655 : 10.0.85.36 : sd = 5
+generated_message : 1564028723164775
+sent_message : 1564028723348223 : 10.0.85.37 : sd = 6
+sent_message : 1564028723982519 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564028727344279 : 10.0.85.36 : sd=5
+received_rejected_message : 1564028735755125 : 10.0.85.37 : sd=6
+sent_message : 1564028744165440 : 10.0.85.36 : sd = 5
+sent_message : 1564028744929404 : 10.0.85.37 : sd = 6
+received_accepted_message : 1564028771620899 : 10.0.85.36 : sd=5
+received_rejected_message : 1564028780049397 : 10.0.85.37 : sd=6
+received_accepted_message : 1564028780231397 : 10.0.85.37 : sd=6
+sent_message : 1564028788546195 : 10.0.85.36 : sd = 5
+received_rejected_message : 1564028787824345 : 10.0.85.35 : sd=7
+received_rejected_message : 1564028788555727 : 10.0.85.35 : sd=7
+sent_message : 1564028789522940 : 10.0.85.37 : sd = 6
+sent_message : 1564028790463571 : 10.0.85.35 : sd = 7
+sent_message : 1564028790768901 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564028794565914 : 10.0.85.36 : sd=5
+received_accepted_message : 1564028835380775 : 10.0.85.35 : sd=7
+received_rejected_message : 1564028841568750 : 10.0.85.36 : sd=5
+received_rejected_message : 1564028850013700 : 10.0.85.37 : sd=6
+sent_message : 1564028858107478 : 10.0.85.36 : sd = 5
+sent_message : 1564028859601931 : 10.0.85.37 : sd = 6
+received_accepted_message : 1564028907785707 : 10.0.85.35 : sd=7
+received_accepted_message : 1564028915013508 : 10.0.85.36 : sd=5
+received_rejected_message : 1564028915288207 : 10.0.85.36 : sd=5
+received_rejected_message : 1564028922300082 : 10.0.85.37 : sd=6
+received_rejected_message : 1564028922523186 : 10.0.85.37 : sd=6
+sent_message : 1564028930660765 : 10.0.85.36 : sd = 5
+sent_message : 1564028932617876 : 10.0.85.37 : sd = 6
+sent_message : 1564028932853074 : 10.0.85.37 : sd = 6
+sent_message : 1564028934663540 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564028933286159 : 10.0.85.35 : sd=7
+generated_message : 1564028963355734
+received_accepted_message : 1564028966689965 : 10.0.85.36 : sd=5
+received_accepted_message : 1564028973872406 : 10.0.85.37 : sd=6
+received_rejected_message : 1564028974086380 : 10.0.85.37 : sd=6
+sent_message : 1564028982341593 : 10.0.85.36 : sd = 5
+sent_message : 1564028982788382 : 10.0.85.36 : sd = 5
+sent_message : 1564028985043529 : 10.0.85.37 : sd = 6
+sent_message : 1564028985369382 : 10.0.85.37 : sd = 6
+sent_message : 1564028988177622 : 10.0.85.35 : sd = 7
+sent_message : 1564028988532326 : 10.0.85.35 : sd = 7
+sent_message : 1564028988775679 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564028986437426 : 10.0.85.35 : sd=7
+received_rejected_message : 1564028988784313 : 10.0.85.35 : sd=7
+received_rejected_message : 1564028995045244 : 10.0.85.36 : sd=5
+generated_message : 1564029023375342
+sent_message : 1564029039194336 : 10.0.85.36 : sd = 5
+sent_message : 1564029042147767 : 10.0.85.37 : sd = 6
+sent_message : 1564029045754969 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029086468928 : 10.0.85.37 : sd=6
+sent_message : 1564029096570241 : 10.0.85.36 : sd = 5
+sent_message : 1564029102884136 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564029098442372 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029108872734 : 10.0.85.36 : sd=5
+generated_message : 1564029143394940
+sent_message : 1564029154560181 : 10.0.85.36 : sd = 5
+sent_message : 1564029157973423 : 10.0.85.37 : sd = 6
+sent_message : 1564029161450121 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029216312471 : 10.0.85.35 : sd=7
+received_accepted_message : 1564029227843157 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029228198601 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029236885499 : 10.0.85.37 : sd=6
+received_rejected_message : 1564029237208873 : 10.0.85.37 : sd=6
+sent_message : 1564029243840825 : 10.0.85.36 : sd = 5
+sent_message : 1564029247639816 : 10.0.85.37 : sd = 6
+sent_message : 1564029247870224 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564029247426133 : 10.0.85.35 : sd=7
+sent_message : 1564029251648475 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029279464805 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029291803704 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029300980603 : 10.0.85.37 : sd=6
+sent_message : 1564029306750855 : 10.0.85.36 : sd = 5
+sent_message : 1564029310920699 : 10.0.85.37 : sd = 6
+generated_message : 1564029323406276
+received_accepted_message : 1564029324186141 : 10.0.85.36 : sd=5
+received_accepted_message : 1564029334506504 : 10.0.85.37 : sd=6
+sent_message : 1564029339588306 : 10.0.85.36 : sd = 5
+sent_message : 1564029340031880 : 10.0.85.36 : sd = 5
+sent_message : 1564029344274540 : 10.0.85.37 : sd = 6
+sent_message : 1564029344619355 : 10.0.85.37 : sd = 6
+sent_message : 1564029349385828 : 10.0.85.35 : sd = 7
+sent_message : 1564029349622554 : 10.0.85.35 : sd = 7
+sent_message : 1564029349846001 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564029345807742 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029358825770 : 10.0.85.36 : sd=5
+generated_message : 1564029383438468
+received_rejected_message : 1564029380926013 : 10.0.85.35 : sd=7
+received_accepted_message : 1564029385199081 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029404446792 : 10.0.85.37 : sd=6
+sent_message : 1564029410044384 : 10.0.85.36 : sd = 5
+sent_message : 1564029410372286 : 10.0.85.36 : sd = 5
+sent_message : 1564029417346753 : 10.0.85.37 : sd = 6
+sent_message : 1564029417597967 : 10.0.85.37 : sd = 6
+sent_message : 1564029423299119 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564029432497974 : 10.0.85.36 : sd=5
+received_accepted_message : 1564029529984237 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029545715463 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029549778650 : 10.0.85.37 : sd=6
+sent_message : 1564029557155839 : 10.0.85.36 : sd = 5
+sent_message : 1564029562745463 : 10.0.85.37 : sd = 6
+received_accepted_message : 1564029588054074 : 10.0.85.37 : sd=6
+sent_message : 1564029595213382 : 10.0.85.36 : sd = 5
+sent_message : 1564029608630849 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029604773697 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029608654427 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029624237937 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029624551872 : 10.0.85.36 : sd=5
+generated_message : 1564029625198600
+received_rejected_message : 1564029626612261 : 10.0.85.37 : sd=6
+sent_message : 1564029634992495 : 10.0.85.36 : sd = 5
+sent_message : 1564029635230652 : 10.0.85.36 : sd = 5
+sent_message : 1564029641141801 : 10.0.85.37 : sd = 6
+sent_message : 1564029641617504 : 10.0.85.37 : sd = 6
+sent_message : 1564029650525025 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029663871869 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029668374766 : 10.0.85.37 : sd=6
+sent_message : 1564029683880489 : 10.0.85.37 : sd = 6
+sent_message : 1564029692797687 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564029686004353 : 10.0.85.35 : sd=7
+received_accepted_message : 1564029727000058 : 10.0.85.35 : sd=7
+received_rejected_message : 1564029749241905 : 10.0.85.36 : sd=5
+sent_message : 1564029762361638 : 10.0.85.36 : sd = 5
+received_rejected_message : 1564029755421614 : 10.0.85.37 : sd=6
+sent_message : 1564029770197442 : 10.0.85.37 : sd = 6
+received_accepted_message : 1564029771373649 : 10.0.85.35 : sd=7
+received_accepted_message : 1564029792582710 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029792982390 : 10.0.85.36 : sd=5
+sent_message : 1564029808385774 : 10.0.85.36 : sd = 5
+sent_message : 1564029816872230 : 10.0.85.37 : sd = 6
+sent_message : 1564029817121971 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564029802827800 : 10.0.85.37 : sd=6
+received_rejected_message : 1564029817136802 : 10.0.85.37 : sd=6
+sent_message : 1564029825610636 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564029817145798 : 10.0.85.35 : sd=7
+received_accepted_message : 1564029896211569 : 10.0.85.37 : sd=6
+received_rejected_message : 1564029920427431 : 10.0.85.35 : sd=7
+generated_message : 1564029925204732
+received_accepted_message : 1564029934333125 : 10.0.85.36 : sd=5
+received_rejected_message : 1564029934723687 : 10.0.85.36 : sd=5
+sent_message : 1564029950674096 : 10.0.85.36 : sd = 5
+sent_message : 1564029950887691 : 10.0.85.36 : sd = 5
+sent_message : 1564029959312628 : 10.0.85.37 : sd = 6
+sent_message : 1564029959564367 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564029954753332 : 10.0.85.35 : sd=7
+sent_message : 1564029967165502 : 10.0.85.35 : sd = 7
+sent_message : 1564029967410664 : 10.0.85.35 : sd = 7
+sent_message : 1564029967624855 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564029986919491 : 10.0.85.36 : sd=5
+sent_message : 1564030008765564 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564029995984911 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030008786154 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030008786631 : 10.0.85.35 : sd=7
+sent_message : 1564030017399138 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564030035101723 : 10.0.85.36 : sd=5
+generated_message : 1564030045211497
+sent_message : 1564030063206735 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564030052675695 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030063226204 : 10.0.85.35 : sd=7
+sent_message : 1564030072196608 : 10.0.85.35 : sd = 7
+sent_message : 1564030072435478 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564030063236193 : 10.0.85.35 : sd=7
+sent_message : 1564030107141216 : 10.0.85.36 : sd = 5
+sent_message : 1564030107387405 : 10.0.85.36 : sd = 5
+sent_message : 1564030120265157 : 10.0.85.37 : sd = 6
+sent_message : 1564030120671678 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564030138901697 : 10.0.85.36 : sd=5
+received_accepted_message : 1564030139372052 : 10.0.85.36 : sd=5
+received_rejected_message : 1564030161497797 : 10.0.85.37 : sd=6
+sent_message : 1564030178755390 : 10.0.85.37 : sd = 6
+sent_message : 1564030192710070 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564030218365414 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030253424394 : 10.0.85.35 : sd=7
+received_rejected_message : 1564030253448712 : 10.0.85.35 : sd=7
+received_accepted_message : 1564030255160455 : 10.0.85.36 : sd=5
+received_rejected_message : 1564030255433538 : 10.0.85.36 : sd=5
+sent_message : 1564030286186202 : 10.0.85.36 : sd = 5
+sent_message : 1564030296851138 : 10.0.85.37 : sd = 6
+received_rejected_message : 1564030278476123 : 10.0.85.37 : sd=6
+generated_message : 1564030303225919
+sent_message : 1564030312584477 : 10.0.85.35 : sd = 7
+sent_message : 1564030313018104 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564030296877761 : 10.0.85.35 : sd=7
+received_accepted_message : 1564030317125872 : 10.0.85.36 : sd=5
+server_device_disconnected : 1564030336693785 : 10.0.85.36 : sd=5
+send_error : 9
+received_accepted_message : 1564030339967569 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030346493552 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030346494197 : 10.0.85.35 : sd=7
+sent_message : 1564030356306334 : 10.0.85.37 : sd = 6
+sent_message : 1564030356509275 : 10.0.85.37 : sd = 6
+sent_message : 1564030369049696 : 10.0.85.35 : sd = 7
+sent_message : 1564030369460461 : 10.0.85.35 : sd = 7
+sent_message : 1564030369855045 : 10.0.85.35 : sd = 7
+client_device_connected : 1564030389921828 : 10.0.85.36 : sd = 3
+Adding to list of sockets as 0
+sent_message : 1564030403222290 : 10.0.85.36 : sd = 3
+sent_message : 1564030403633929 : 10.0.85.36 : sd = 3
+received_accepted_message : 1564030397309134 : 10.0.85.37 : sd=6
+received_accepted_message : 1564030403644357 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030403644741 : 10.0.85.35 : sd=7
+received_rejected_message : 1564030403645180 : 10.0.85.35 : sd=7
+received_rejected_message : 1564030403645661 : 10.0.85.35 : sd=7
+sent_message : 1564030426792940 : 10.0.85.35 : sd = 7
+sent_message : 1564030461767585 : 10.0.85.36 : sd = 3
+sent_message : 1564030462017464 : 10.0.85.36 : sd = 3
+received_accepted_message : 1564030456461657 : 10.0.85.37 : sd=6
+sent_message : 1564030488481240 : 10.0.85.35 : sd = 7
+sent_message : 1564030521492707 : 10.0.85.36 : sd = 3
+received_accepted_message : 1564030511543786 : 10.0.85.37 : sd=6
+sent_message : 1564030543403170 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564030521513378 : 10.0.85.35 : sd=7
+received_accepted_message : 1564030543429159 : 10.0.85.35 : sd=7
+received_rejected_message : 1564030543439036 : 10.0.85.35 : sd=7
+generated_message : 1564030553028178
+received_rejected_message : 1564030556725319 : 10.0.85.35 : sd=3
+server_device_disconnected : 1564030556732136 : 10.0.85.35 : sd=3
+client_device_connected : 1564030563125198 : 10.0.85.46 : sd = 3
+Adding to list of sockets as 0
+received_rejected_message : 1564030581725246 : 10.0.85.37 : sd=6
+sent_message : 1564030582004058 : 10.0.85.46 : sd = 3
+sent_message : 1564030582209555 : 10.0.85.46 : sd = 3
+sent_message : 1564030582445871 : 10.0.85.46 : sd = 3
+sent_message : 1564030582668401 : 10.0.85.46 : sd = 3
+sent_message : 1564030582880040 : 10.0.85.46 : sd = 3
+sent_message : 1564030583185443 : 10.0.85.46 : sd = 3
+sent_message : 1564030583458525 : 10.0.85.46 : sd = 3
+sent_message : 1564030583705096 : 10.0.85.46 : sd = 3
+sent_message : 1564030583928855 : 10.0.85.46 : sd = 3
+sent_message : 1564030584104944 : 10.0.85.46 : sd = 3
+sent_message : 1564030584306740 : 10.0.85.46 : sd = 3
+sent_message : 1564030584512720 : 10.0.85.46 : sd = 3
+sent_message : 1564030584720643 : 10.0.85.46 : sd = 3
+sent_message : 1564030585061103 : 10.0.85.46 : sd = 3
+sent_message : 1564030585285363 : 10.0.85.46 : sd = 3
+sent_message : 1564030585529015 : 10.0.85.46 : sd = 3
+sent_message : 1564030585745609 : 10.0.85.46 : sd = 3
+sent_message : 1564030585968842 : 10.0.85.46 : sd = 3
+sent_message : 1564030586161102 : 10.0.85.46 : sd = 3
+sent_message : 1564030586339544 : 10.0.85.46 : sd = 3
+sent_message : 1564030586616315 : 10.0.85.46 : sd = 3
+sent_message : 1564030586907264 : 10.0.85.46 : sd = 3
+sent_message : 1564030587152019 : 10.0.85.46 : sd = 3
+sent_message : 1564030587389936 : 10.0.85.46 : sd = 3
+sent_message : 1564030587622114 : 10.0.85.46 : sd = 3
+sent_message : 1564030587820620 : 10.0.85.46 : sd = 3
+sent_message : 1564030588030879 : 10.0.85.46 : sd = 3
+sent_message : 1564030588285159 : 10.0.85.46 : sd = 3
+sent_message : 1564030588586666 : 10.0.85.46 : sd = 3
+sent_message : 1564030588813431 : 10.0.85.46 : sd = 3
+sent_message : 1564030589039264 : 10.0.85.46 : sd = 3
+sent_message : 1564030589246208 : 10.0.85.46 : sd = 3
+sent_message : 1564030589475735 : 10.0.85.46 : sd = 3
+sent_message : 1564030589695263 : 10.0.85.46 : sd = 3
+sent_message : 1564030589924060 : 10.0.85.46 : sd = 3
+sent_message : 1564030590211339 : 10.0.85.46 : sd = 3
+sent_message : 1564030590505522 : 10.0.85.46 : sd = 3
+sent_message : 1564030590734639 : 10.0.85.46 : sd = 3
+sent_message : 1564030590949403 : 10.0.85.46 : sd = 3
+sent_message : 1564030591174400 : 10.0.85.46 : sd = 3
+sent_message : 1564030591406270 : 10.0.85.46 : sd = 3
+sent_message : 1564030591627292 : 10.0.85.46 : sd = 3
+sent_message : 1564030591945064 : 10.0.85.46 : sd = 3
+sent_message : 1564030592243718 : 10.0.85.46 : sd = 3
+sent_message : 1564030592513884 : 10.0.85.46 : sd = 3
+sent_message : 1564030592751376 : 10.0.85.46 : sd = 3
+sent_message : 1564030592972581 : 10.0.85.46 : sd = 3
+sent_message : 1564030593196360 : 10.0.85.46 : sd = 3
+sent_message : 1564030593375630 : 10.0.85.46 : sd = 3
+sent_message : 1564030612019953 : 10.0.85.37 : sd = 6
+sent_message : 1564030612448621 : 10.0.85.37 : sd = 6
+sent_message : 1564030634363751 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564030658012250 : 10.0.85.35 : sd=7
+generated_message : 1564030673034754
+sent_message : 1564030682980252 : 10.0.85.37 : sd = 6
+sent_message : 1564030706073588 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564030697753343 : 10.0.85.46 : sd=3
+received_rejected_message : 1564030719477639 : 10.0.85.37 : sd=6
+sent_message : 1564030742153591 : 10.0.85.46 : sd = 3
+sent_message : 1564030742384977 : 10.0.85.46 : sd = 3
+generated_message : 1564030742992675
+sent_message : 1564030754591260 : 10.0.85.37 : sd = 6
+sent_message : 1564030778324763 : 10.0.85.35 : sd = 7
+received_accepted_message : 1564030778470618 : 10.0.85.46 : sd=3
+received_accepted_message : 1564030795198414 : 10.0.85.37 : sd=6
+received_rejected_message : 1564030795575298 : 10.0.85.37 : sd=6
+sent_message : 1564030815503877 : 10.0.85.46 : sd = 3
+sent_message : 1564030816443674 : 10.0.85.46 : sd = 3
+received_rejected_message : 1564030814316453 : 10.0.85.35 : sd=7
+received_rejected_message : 1564030816455190 : 10.0.85.35 : sd=7
+received_accepted_message : 1564030816456593 : 10.0.85.35 : sd=7
+sent_message : 1564030830187431 : 10.0.85.37 : sd = 6
+sent_message : 1564030830425720 : 10.0.85.37 : sd = 6
+sent_message : 1564030830855386 : 10.0.85.37 : sd = 6
+sent_message : 1564030849733103 : 10.0.85.35 : sd = 7
+sent_message : 1564030850166728 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564030862601322 : 10.0.85.46 : sd=3
+received_accepted_message : 1564030863379445 : 10.0.85.46 : sd=3
+received_rejected_message : 1564030867749169 : 10.0.85.37 : sd=6
+sent_message : 1564030895917541 : 10.0.85.46 : sd = 3
+sent_message : 1564030915491644 : 10.0.85.37 : sd = 6
+generated_message : 1564030934611675
+sent_message : 1564030938181935 : 10.0.85.35 : sd = 7
+received_rejected_message : 1564030941694344 : 10.0.85.37 : sd=6
+received_accepted_message : 1564030941955124 : 10.0.85.37 : sd=6
+
+Terminating Threads
+Wait until each thread finishes it's current loop.(it might take some time)
+received_rejected_message : 1564030943583616 : 10.0.85.46 : sd=3
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+server_finished : 1564030943588582
+server_joined : 1564030943614676
+client_finished : 1564030958229162
+client_joined : 1564030958234341
+generated_message : 1564031118211785
+generator_finished : 1564031118218708
+generator_joined : 1564031118229206
