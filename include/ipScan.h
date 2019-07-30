@@ -6,5 +6,6 @@ void free2d(char **ptr, int rows);
 int ipExists(int* server_socket, int serverNum, char* ip);
 int myAEM(char *dev);
 int getAEM(char *ip);
+char *broadcastIP(char *dev);
 
 #endif

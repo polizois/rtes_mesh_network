@@ -73,7 +73,8 @@ void client(void* args)
 	int addrlen = sizeof(serv_addr);
 	char message[MSG_SIZE];
 	char** ipTable=NULL;
-	int run;
+	char *broadIP = broadcastIP(NETWORK_DEVICE);
+ 	int run;
 	int tempAEM;
 	int tempPos;
 
@@ -94,7 +95,7 @@ void client(void* args)
 	while(run)
 	{
 		// Scan IPs in network
-		ipNum = getIPs(&ipTable, BROADCAST_IP, PING_PACKETS);
+		ipNum = getIPs(&ipTable, broadIP, PING_PACKETS);
 
 		//Try to connect with the new devices (if any)
 		pthread_mutex_lock(&socketMutex);

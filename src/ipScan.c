@@ -91,6 +91,21 @@ int myAEM(char *dev)
 	return atoi(buffer);
 }
 
+char *broadcastIP(char *dev)
+{
+	FILE *pf;
+	char command[256];
+	static char buffer[16];
+
+	sprintf(command, "ifconfig %s | grep broadcast | awk '{split($0,a,\" \"); print a[6]}'", dev);
+	pf = popen(command,"r");
+	fgets(buffer, 16, pf);
+
+	if(pclose(pf)) return NULL;
+	return buffer;
+}
+
+
 int getAEM(char *ip)
 {
 	char *token;
