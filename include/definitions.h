@@ -1,6 +1,8 @@
 #ifndef DEFINITIONS_H_
 #define DEFINITIONS_H_
 
+// Edit these definitions to control the basic settings of the progran
+
 #define SERVER_PORT 2288      // The port on which the device will be listening for incomming activity and on which it will try to reach other devices
 #define NETWORK_DEVICE "eth0" // (or "wlan0" or "usb0") The name of the network device that will be used by the program
 #define PING_PACKETS 20       // The number of packets sent to ping the broadcast ip (in order to find the available devices in the netwirk)
