@@ -75,14 +75,14 @@ int messageDestination(char* message, size_t size)
 	return atoi(strtok(NULL, "_"));
 }
 
-int canSend(char* message, int messageSize, int* list, int listSize, int originAEM, int destinationAEM)
+int canSend(char* message, int messageSize, int* list, int listSize, int thisAEM, int destinationAEM)
 {
 	int i;
 
 	//IF the message ORIGIN is the device I'm trying to send it to, don't send the message
 	if(messageOrigin(message, messageSize)==destinationAEM) return -1;
 	//IF the message DESTINATION is THIS DEVICE, don't send the message
-	if(messageDestination(message, messageSize)==originAEM) return -1;
+	if(messageDestination(message, messageSize)==thisAEM) return -1;
 
 	for(i=0;i<listSize;i++)
 	{
