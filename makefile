@@ -6,10 +6,10 @@ ODIR=obj
 SRCDIR=./src
 LDIR =../lib
 
-_DEPS = circular_buffer.h definitions.h ipScan.h messageTools.h randString.h threads.h
+_DEPS = circular_buffer.h definitions.h ipScan.h messageTools.h randString.h threads.h saveTools.h
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = router.o ipScan.o randString.o messageTools.o circular_buffer.o threads.o
+_OBJ = router.o ipScan.o randString.o messageTools.o circular_buffer.o threads.o saveTools.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 
