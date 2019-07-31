@@ -18,7 +18,7 @@
 #include "randString.h"
 #include "threads.h"
 
-void msgGenerator(void* args)
+void generator(void* args)
 {
 	generator_data *myData = (generator_data*) args;
 	int minInterval = myData->minInterval, maxInterval =  myData->maxInterval;

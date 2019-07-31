@@ -101,7 +101,7 @@ int main(int argc, char const *argv[])
   }
 
 	//Create Thread for: Message generator loop
-	rc = pthread_create(&genThread, NULL, (void*)&msgGenerator, (void*)&genData);
+	rc = pthread_create(&genThread, NULL, (void*)&generator, (void*)&genData);
 	if (rc)
 	{
   	printf("ERROR; return code from pthread_create() is %d\n", rc);
