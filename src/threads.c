@@ -24,7 +24,7 @@ void msgGenerator(void* args)
 	int minInterval = myData->minInterval, maxInterval =  myData->maxInterval;
 	int** sendList = myData->sendList;
 	int* terminate = myData->terminate;
-	int thisAEM = myAEM(NETWORK_DEVICE);
+	int thisAEM = getAEM(myIP(NETWORK_DEVICE));
 	int destAEM;
 	int num=0;
 	int run;
@@ -68,7 +68,7 @@ void msgGenerator(void* args)
 void client(void* args)
 {
 	int i, j, ipNum = 0, sock = 0, max_sock=0, valread;
-	int thisAEM = myAEM(NETWORK_DEVICE);
+	int thisAEM = getAEM(myIP(NETWORK_DEVICE));
 	struct sockaddr_in serv_addr;
 	int addrlen = sizeof(serv_addr);
 	char message[MSG_SIZE];
@@ -167,7 +167,7 @@ void client(void* args)
 			for(j=0;j<CIRC_BUFFER_SIZE;j++)
 			{
 				if(strlen(circBuffer[j])==0) break; //Buffer empty from this point on.So stop looking.
-				tempPos = canSend(circBuffer[j], MSG_SIZE, sendList[j], MAX_SOCKETS, myAEM(NETWORK_DEVICE), tempAEM);
+				tempPos = canSend(circBuffer[j], MSG_SIZE, sendList[j], MAX_SOCKETS, thisAEM, tempAEM);
 				if(tempPos != -1)
 				{
 					if(send(sock, circBuffer[j], MSG_SIZE, 0)==-1)

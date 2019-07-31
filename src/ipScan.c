@@ -19,6 +19,7 @@ int getIPs(char ***table, char* broadcastIP, int packetCount)
   while ( fgets( buffer, 16, pf) != NULL){}
   pclose(pf);
   sprintf(command, "ping -c%d -b %s 2>/dev/null", packetCount, broadcastIP);
+  // sprintf(command, "ping -c%d -b %s 2>&1", packetCount, broadcastIP);
   pf = popen(command, "r");
   while ( fgets( buffer, 16, pf) != NULL){}
   pclose(pf);
@@ -77,18 +78,18 @@ int ipExists(int* server_socket, int serverNum, char* ip)
 	return 0;
 }
 
-int myAEM(char *dev)
+char *myIP(char *dev)
 {
-	FILE *pf;
-	char command[256];
-	char buffer[7];
+  FILE *pf;
+  char command[256];
+  static char buffer[16];
 
-	sprintf(command, "ifconfig %s | grep inet  | awk '{print }' | awk '{split($0,a,\".\"); print a[3]a[4]}'", dev);
-	pf = popen(command,"r");
-	fgets(buffer, 7, pf);
+  sprintf(command, "ifconfig %s | grep inet | awk '{split($0,a,\" \"); print a[2]}'", dev);
+  pf = popen(command,"r");
+  fgets(buffer, 16, pf);
 
-	if(pclose(pf)) return -1;
-	return atoi(buffer);
+  if(pclose(pf)) return NULL;
+	return buffer;
 }
 
 char *broadcastIP(char *dev)
@@ -102,6 +103,7 @@ char *broadcastIP(char *dev)
 	fgets(buffer, 16, pf);
 
 	if(pclose(pf)) return NULL;
+  buffer[strcspn(buffer, "\n")] = '\0';
 	return buffer;
 }
 

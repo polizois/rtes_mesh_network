@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
 	char buffer[MSG_SIZE];
 	struct timeval tv;
 	gettimeofday(&tv, NULL);
-	printf("program_started : %" PRIu64 " : %d\n", (uint64_t)tv.tv_usec+(uint64_t)tv.tv_sec*(uint64_t)1000000, myAEM(NETWORK_DEVICE));
+	printf("program_started : %" PRIu64 " : %d\n", (uint64_t)tv.tv_usec+(uint64_t)tv.tv_sec*(uint64_t)1000000, getAEM(myIP(NETWORK_DEVICE)));
 
 	//List to keep track of where we have sent each message
 	int** sendList = (int**)malloc(CIRC_BUFFER_SIZE * sizeof(int*));
