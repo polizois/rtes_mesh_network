@@ -1,6 +1,38 @@
-// Client side C/C++ program to demonstrate Socket programming
+/*
+    Author: Polizois Siois 8535
+*/
+/*
+    Faculty of Electrical and Computer Engineering AUTH
+    Final assignemnt for Real Time Embedded Systems course (8th semester)
+*/
+/*
+		Implementation of a very basic mesh network used for message exchanges.
+		The program is meant to be run on every device(raspberry PI Zero) in this network.
+		The program generates message with destination certain devices. It also connects
+		with the available devices in the network and exchanges these messsages with them.
+		A messsage circulates from device to device in the network until it reaches it's
+		destination.
+*/
+/*
+		-- Available devices --
+    This iteration of the program tries to ping the broadcast ip of the network
+		in order to find all the available devices and connect to them. So the devices that
+		take part in this network should be able to respond to broadcast ping requests.
+		In rasbian OS this can be done by writing 0 to /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts.
+
+		-- Message destination --
+		The destination device of the genetated messages gets randomly selected by producing
+		a random device id in the range of 7000 to 9999. A future iteration of the progran might use
+		a given list of device ids.
+
+		-- Device ip --
+		The ip of the devive should be set according to the device's id in a certain way.
+		If the device's id is 8535 and the netmask is 255.0.0.0 the static ip should be 10.0.85.35.
+
+		-- Device id --
+		The device id is a 4 digit number and is the same as the student id in this case.
+*/
 #include <stdio.h>
-// #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
 #include <string.h>
@@ -18,7 +50,7 @@
 #include "ipScan.h"
 #include "saveTools.h"
 
-
+// Gets called when SIGINT signal appears and assgins value 1 to variable "terminateThreads"
 void sigintHandler(int sig_num);
 // Variable used by the threads to determine whether they should terminate or not
 int terminateThreads=0;
@@ -60,8 +92,13 @@ int main(int argc, char const *argv[])
 	}
 
 	//Generator Thread data declaration and initialization
-	generator_data genData={1, 5, 1};
-	genData.cbuf = &cbuf; genData.sendList = sendList; genData.terminate = &terminateThreads;
+	generator_data genData;
+	genData.tid = 1;
+	genData.minInterval = 1;
+	genData.maxInterval = 5;
+	genData.cbuf = &cbuf;
+	genData.sendList = sendList;
+	genData.terminate = &terminateThreads;
 	pthread_t genThread;
 
 	//Client Thread data declaration and initialization
@@ -119,7 +156,6 @@ int main(int argc, char const *argv[])
 	signal(SIGINT, sigintHandler);
 
 	//Wait for threads to join
-
 	rc = pthread_join(genThread, &status);
 	if(rc) printf("ERROR; return code from pthread_join() is %d\n", rc);
 	// else
